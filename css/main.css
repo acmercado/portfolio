@@ -110,19 +110,19 @@ li a {
 
 h3 {
 	font-family: 'AaarghNormal';
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
 }
 
 p {
 	font-family: 'DatalegreyaDot';
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
 }
 
 div .details {
 	width: 375px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 h1 {
