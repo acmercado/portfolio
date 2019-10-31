@@ -110,7 +110,7 @@ li a {
 
 h3 {
 	font-family: 'AaarghNormal';
-	font-weight: bold
+	font-weight: normal;
 	font-style: normal;
 }
 
@@ -123,4 +123,12 @@ p {
 div .details {
 	width: 375px;
 	padding-bottom: 30px;
+}
+
+h1 {
+	font-family: 'BebasNeueRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 40px;
+	text-decoration: underline;
 }
