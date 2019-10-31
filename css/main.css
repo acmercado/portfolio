@@ -1,7 +1,122 @@
-.name {
-	resize: 60%;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
-#title {
-	color: #d4d4d4;
+li {
+	position: center;
+}
+
+a {
+	font-family: 'BebasNeueRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 40px;
+	color: #000000;
+	text-decoration: none;
+}
+
+li a { 
+	display: block;
+	padding: 10px 50px;
+	text-decoration: none;
+ }
+
+ li a:hover {
+ 	background-color: #f1f1f1;
+ }
+
+.contact {
+	display: inline-block;
+	padding: 10px 147px;
+}
+
+.icons {
+	width: 37px;
+	height: 35px;
+	padding: 20px;
+}
+
+#email:hover {
+	width: 37px;
+	height: 35px;
+}
+
+#instagram:hover {
+	width: 37px;
+	height: 35px;
+}
+
+.split {
+	height: 100%;
+	width: 70%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.left {
+	left: 0;
+	background-color: #ffffff;
+}
+
+.right {
+	right: 0;
+	background-color: #d4d4d4;
+}
+
+#guisketch {
+	border: none;
+	width: 100vw;
+	height: 95vh;
+}
+
+.portfolio {
+	position: relative;
+}
+
+.portfolio img {
+	position: absolute;
+	display: inline-block;
+	margin: 250px auto -25px;
+}
+
+.projects {
+	float: middle;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.details {
+	float: middle;
+	align-items: 
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-top: 65px;
+	margin-bottom: 25px;
+}
+
+#content {
+	float: right;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-family: 'AaarghNormal';
+	font-weight: bold
+	font-style: normal;
+}
+
+p {
+	font-family: 'DatalegreyaDot';
+	font-weight: normal;
+	font-style: normal;
 }
