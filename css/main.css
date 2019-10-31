@@ -1,3 +1,8 @@
+.front {
+	float: middle;
+	padding-left: 10px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -59,7 +64,6 @@ li a {
 	z-index: 1;
 	top: 0;
 	overflow-x: hidden;
-	padding-top: 20px;
 }
 
 .left {
@@ -96,7 +100,6 @@ li a {
 
 .details {
 	float: middle;
-	align-items: 
 	padding-top: 10px;
 	padding-left: 10px;
 	margin-bottom: 25px;
